@@ -2,6 +2,10 @@
 # seattle-301n9
 *Class lecture repo for seattle-301n9. Lead Instructor: JB Tellez*
 
+[![](https://img.shields.io/badge/canvas-301n9-blue.svg)](https://canvas.instructure.com/courses/1245195)
+[![](https://img.shields.io/badge/Labs-301n9-yellow.svg)](https://github.com/codefellows-seattle-301n9)
+[![](https://img.shields.io/badge/slack-301n9-orange.svg)](https://codefellows.slack.com/messages/seattle-301n9)
+
 <a id="top"></a>
 ## Code 301
 
