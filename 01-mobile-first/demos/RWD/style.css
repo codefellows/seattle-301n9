@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background-color: grey;
+}
+
+h2 {
+  background-color: red;
+  font-size: 4vw;
+}
+
+/*172.16.11.9:8080*/
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: green;
+  }
+
+  h2 {
+    background-color: white;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: purple;
+  }
+
+  h2 {
+    background-color: orange;
+  }
+}
