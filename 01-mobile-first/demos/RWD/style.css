@@ -8,7 +8,8 @@ h2 {
   font-size: 4vw;
 }
 
-/*172.16.11.9:8080*/
+/* 172.16.2.42:8080*/
+
 
 @media only screen and (min-width: 600px) {
   body {
@@ -20,6 +21,9 @@ h2 {
   }
 }
 
+.icon-eyedropper {
+  font-size: 10vw;
+}
 @media only screen and (min-width: 800px) {
   body {
     background-color: purple;
@@ -28,4 +32,11 @@ h2 {
   h2 {
     background-color: orange;
   }
+
+  .icon-eyedropper {
+    display: none;
+  }
+
+  
 }
+
