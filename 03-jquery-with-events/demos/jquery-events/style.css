@@ -1,0 +1,39 @@
+body {
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+}
+
+nav ul {
+  border: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid grey;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+button {
+  font-size: 16px;
+}
+
+img {
+  display: none;
+}
+
+.menu-item {
+  background-color: #ddd;
+}
+
+#menu1 li::After {
+  content: '-Hello world';
+}
