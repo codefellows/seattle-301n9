@@ -31,6 +31,16 @@
         <a href="#" class="read-on">Read on &rarr;</a>
       </article>
     </script>
+
+    <!-- filter template -->
+    <script id="filter-template" type="text/x-handlebars-template">
+      <li>
+        <select id="{{id}}">
+          <option value="">{{text}}</option>
+        </select>
+      </li>
+    </script>
+
   </head>
   <body>
     <header class="site-header clearfix">
@@ -54,16 +64,7 @@
       <section id="articles" class="tab-content">
         <div>
           <ul id="filters">
-            <li>
-              <select id="author-filter">
-                <option value="">-- Filter by Authors --</option>
-              </select>
-            </li>
-            <li>
-              <select id="category-filter">
-                <option value="">-- Filter by Categories --</option>
-              </select>
-            </li>
+            <!-- li elements with "filter" select elements will be inserted here -->
           </ul>
         </div>
       </section>
