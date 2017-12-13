@@ -7,6 +7,7 @@ let articleView = {};
 // COMMENT: How do arrow functions affect the context of "this"? How did you determine if a function could be refactored?
 // PUT YOUR RESPONSE HERE
 
+// STRETCH: initialize filters using Handlebars
 articleView.initFilters = () => {
 
   const template = $('#filter-template').text();
@@ -99,7 +100,7 @@ articleView.setTeasers = function () {
 };
 
 $(document).ready(() => {
-  articleView.initFilters();
+  articleView.initFilters(); // STRETCH: call to initialize filters
   articleView.populateFilters();
   articleView.handleCategoryFilter();
   articleView.handleAuthorFilter();
