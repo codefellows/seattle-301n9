@@ -6,3 +6,7 @@
 	* Review the differences between the Browser Runtime env and Node's Runtime env
 	* Usage and best practices when implementing a NodeJS project using NPM packages and package.json configs
 	* Understand the basics of working with ExpressJS for server-side routing and functionality
+
+[Starter code repository for class demo](https://github.com/codefellows/301-7-express-demo)
+
+[Solution for class demo](https://github.com/codefellows/seattle-301n9/tree/master/07-nodejs-npm-express/demo-solution)
