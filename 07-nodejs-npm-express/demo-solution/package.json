@@ -1,0 +1,26 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows/301-7-express-demo.git"
+  },
+  "author": "Us",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefellows/301-7-express-demo/issues"
+  },
+  "homepage": "https://github.com/codefellows/301-7-express-demo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
